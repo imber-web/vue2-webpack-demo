@@ -30,6 +30,12 @@ const routes = [
     name: 'MyvirtualWrap',
     component: () =>
       import(/* webpackChunkName: "about" */ '../views/myvirtualWrap.vue')
+  },
+  {
+    path: '/lazyload',
+    name: 'Lazyload',
+    component: () =>
+      import(/* webpackChunkName: "about" */ '../views/Lazyload.vue')
   }
 ]
 
