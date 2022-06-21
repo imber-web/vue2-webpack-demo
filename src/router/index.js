@@ -24,6 +24,12 @@ const routes = [
     name: 'Dynamic',
     component: () =>
       import(/* webpackChunkName: "about" */ '../views/dynamic.vue')
+  },
+  {
+    path: '/myvirtualWrap',
+    name: 'MyvirtualWrap',
+    component: () =>
+      import(/* webpackChunkName: "about" */ '../views/myvirtualWrap.vue')
   }
 ]
 
